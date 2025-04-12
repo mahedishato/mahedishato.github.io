@@ -1,7 +1,3 @@
-Below is a README file tailored for your portfolio website project. It includes an overview, setup instructions, features, technologies used, and contribution guidelines. I've also suggested some improvements for your website to enhance its functionality, accessibility, and user experience.
-
----
-
 # Mahedi Hasan Rasel's Portfolio Website
 
 Welcome to the repository for my personal portfolio website! This site showcases my skills, experience, projects, and publications as a Machine Learning Engineer specializing in Generative AI, Large Language Models (LLM), and Computer Vision.
