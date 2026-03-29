@@ -1,6 +1,204 @@
 /* Custom Styles for Portfolio Website */
 
-/* ======= Services Section ======= */
+/*--------------------------------------------------------------
+# Global Font Standardization
+--------------------------------------------------------------*/
+
+/* Override all body text to use consistent font */
+body,
+p,
+li,
+span,
+div {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Override all headings to use consistent font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c;
+}
+
+/* Standardize section titles across all sections */
+.section-title h2 {
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+.section-title p {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+}
+
+/*--------------------------------------------------------------
+# About Section
+--------------------------------------------------------------*/
+.about .content h3 {
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  color: #173b6c !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.about .content h4 {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  color: #173b6c !important;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.about .content p {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  line-height: 1.9 !important;
+  color: #555 !important;
+}
+
+.about .content ul li {
+  padding: 10px 0;
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.about .content ul li strong {
+  margin-right: 8px;
+  color: #173b6c;
+  min-width: 140px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 15px !important;
+}
+
+.about .content ul li span {
+  font-weight: 400;
+  font-size: 15px !important;
+}
+
+.about .interest-item {
+  background: #f8f9fa;
+  transition: all 0.3s ease;
+  text-align: center;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.about .interest-item:hover {
+  background: #e9ecef;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about .interest-item i {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.about .interest-item strong {
+  font-size: 15px !important;
+  color: #444;
+  font-weight: 500;
+}
+
+/*--------------------------------------------------------------
+# News Section
+--------------------------------------------------------------*/
+.news .content ul li {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  color: #555 !important;
+  margin-bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Resume Section
+--------------------------------------------------------------*/
+.resume .resume-title {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume .resume-item h4 {
+  line-height: 24px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+  margin-bottom: 10px;
+  text-transform: none !important;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  background: #e4edf9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600 !important;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item b,
+.resume .resume-item em {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px !important;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  color: #555 !important;
+}
+
+.resume .resume-item p {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  color: #555 !important;
+}
+
+.resume .resume-item p strong {
+  font-size: 15px !important;
+  color: #173b6c !important;
+}
+
+/*--------------------------------------------------------------
+# Services/Skills Section
+--------------------------------------------------------------*/
+.services .title {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+.services .title a {
+  font-size: 18px !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.services .description {
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+}
+
 #services.section-bg {
   background: #f8f9fa;
   padding: 60px 0;
@@ -15,12 +213,13 @@
 }
 
 #services .skill-category-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: #212529;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
   margin-bottom: 12px;
   padding-bottom: 8px;
-  border-bottom: 2px solid #0d6efd;
+  border-bottom: 2px solid #149ddd;
   display: inline-block;
 }
 
@@ -29,16 +228,18 @@
 }
 
 #services .skill-list {
-  font-size: 14px;
-  color: #6c757d;
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
   line-height: 1.8;
   margin: 0;
 }
 
 #services .skill-list strong {
-  color: #495057;
+  color: #173b6c !important;
   font-weight: 600;
   margin-right: 8px;
+  font-size: 15px !important;
 }
 
 #services .certificates-container {
@@ -49,9 +250,10 @@
 }
 
 #services .certificates-container h3 {
-  font-size: 22px;
-  font-weight: 700;
-  color: #212529;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
   margin-bottom: 25px;
 }
 
@@ -73,32 +275,35 @@
 }
 
 #services .cert-info h5 {
-  font-size: 15px;
-  font-weight: 600;
-  color: #212529;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
   margin-bottom: 4px;
 }
 
 #services .cert-info p {
-  font-size: 13px;
-  color: #6c757d;
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
   margin: 0;
 }
 
 #services .cert-btn {
-  background: #0d6efd;
+  background: #149ddd;
   color: #ffffff;
   padding: 8px 20px;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 14px !important;
   font-weight: 600;
+  font-family: 'Open Sans', sans-serif !important;
   text-decoration: none;
   transition: all 0.2s ease;
   white-space: nowrap;
 }
 
 #services .cert-btn:hover {
-  background: #0a58ca;
+  background: #1280b7;
   color: #ffffff;
 }
 
@@ -110,12 +315,13 @@
 }
 
 #services .resume-download-btn {
-  background: #212529;
+  background: #173b6c;
   color: #ffffff;
   padding: 12px 30px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 15px !important;
   font-weight: 600;
+  font-family: 'Open Sans', sans-serif !important;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -128,7 +334,40 @@
   color: #ffffff;
 }
 
-/* ======= Contact Section ======= */
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact .info h4 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+.contact .info p {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+}
+
+.contact .php-email-form label {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.contact .php-email-form button[type="submit"] {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 #contact .contact-main {
   background: #ffffff;
   border-radius: 8px;
@@ -152,14 +391,14 @@
 }
 
 #contact .contact-item:hover {
-  border-color: #0d6efd;
-  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.1);
+  border-color: #149ddd;
+  box-shadow: 0 4px 12px rgba(20, 157, 221, 0.1);
 }
 
 #contact .contact-icon {
   width: 60px;
   height: 60px;
-  background: #0d6efd;
+  background: #149ddd;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -173,28 +412,32 @@
 }
 
 #contact .contact-label {
-  font-size: 13px;
+  font-size: 14px !important;
   font-weight: 700;
   text-transform: uppercase;
-  color: #6c757d;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
   letter-spacing: 0.5px;
   margin-bottom: 8px;
 }
 
 #contact .contact-value {
-  font-size: 16px;
+  font-size: 15px !important;
   font-weight: 600;
-  color: #212529;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
 }
 
 #contact .contact-value a {
-  color: #212529;
+  color: #555;
   text-decoration: none;
   transition: color 0.2s ease;
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 #contact .contact-value a:hover {
-  color: #0d6efd;
+  color: #149ddd;
 }
 
 #contact .social-section {
@@ -206,9 +449,10 @@
 }
 
 #contact .social-section h4 {
-  font-size: 18px;
-  font-weight: 700;
-  color: #212529;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
   margin-bottom: 20px;
 }
 
@@ -235,8 +479,8 @@
 }
 
 #contact .social-btn:hover {
-  background: #0d6efd;
-  border-color: #0d6efd;
+  background: #149ddd;
+  border-color: #149ddd;
   color: #ffffff;
   transform: translateY(-3px);
 }
@@ -263,25 +507,28 @@
 }
 
 #contact .email-cta h4 {
-  font-size: 20px;
-  font-weight: 700;
-  color: #212529;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
   margin-bottom: 10px;
 }
 
 #contact .email-cta p {
-  color: #6c757d;
-  font-size: 14px;
+  color: #555 !important;
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
   margin-bottom: 20px;
 }
 
 #contact .email-btn {
-  background: #0d6efd;
+  background: #149ddd;
   color: #ffffff;
   padding: 12px 30px;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 15px !important;
   font-weight: 600;
+  font-family: 'Open Sans', sans-serif !important;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
@@ -290,7 +537,7 @@
 }
 
 #contact .email-btn:hover {
-  background: #0a58ca;
+  background: #1280b7;
   color: #ffffff;
 }
 
@@ -334,8 +581,10 @@
 
 #projectsAccordion .accordion-button {
   background-color: #f8f9fa;
-  color: #212529;
-  font-size: 1rem;
+  color: #173b6c;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
   padding: 1.25rem 1.5rem;
   border: none;
   transition: all 0.3s ease;
@@ -372,6 +621,13 @@
   border-top: 2px solid #e9ecef;
 }
 
+#projectsAccordion .accordion-body p {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+}
+
 #projectsAccordion .accordion-body img {
   transition: transform 0.3s ease;
 }
@@ -382,6 +638,174 @@
 
 #projectsAccordion strong {
   font-weight: 600;
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/*--------------------------------------------------------------
+# Portfolio/Publications Section
+--------------------------------------------------------------*/
+.portfolio .portfolio-info h3 {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+.portfolio .portfolio-info ul li {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+}
+
+.portfolio .portfolio-description h2 {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+.portfolio .portfolio-description p {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+}
+
+.portfolio #portfolio-flters li {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Publications Section */
+#publications h3,
+.publications h3 {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+#publications h4,
+.publications h4 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+#publications p,
+.publications p {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+}
+
+#publications ul li,
+.publications ul li {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+}
+
+#publications .accordion-button {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+#publications .text-muted,
+.publications .text-muted {
+  font-size: 14px !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/*--------------------------------------------------------------
+# Facts/Stats Section
+--------------------------------------------------------------*/
+.facts .count-box span {
+  font-size: 40px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+.facts .count-box p {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+}
+
+/*--------------------------------------------------------------
+# Testimonials Section
+--------------------------------------------------------------*/
+.testimonials .testimonial-item h3 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+}
+
+.testimonials .testimonial-item p {
+  font-size: 15px !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+  line-height: 1.8 !important;
+}
+
+/*--------------------------------------------------------------
+# General Link Styling
+--------------------------------------------------------------*/
+a {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+/*--------------------------------------------------------------
+# Section General Overrides
+--------------------------------------------------------------*/
+section h3 {
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+section h4 {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+section h5 {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-family: 'Raleway', sans-serif !important;
+  color: #173b6c !important;
+}
+
+section p {
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
+}
+
+section ul li,
+section ol li {
+  font-size: 15px !important;
+  line-height: 1.8 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  color: #555 !important;
 }
 
 #projectsAccordion .text-muted {
