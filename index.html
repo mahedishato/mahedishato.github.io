@@ -395,134 +395,322 @@
         <div class="section-title">
           <h2>Projects</h2>
         </div>
+        
         <div class="row">
-          <div class="col-lg-12 pt-4 pt-lg-0 content">
-              <p>&nbsp;</p>
-              <div class="col-lg-12 pt-4 pt-lg-0 content">
-                <div class="row">
-                  <div class="col-lg-12">
-                    <strong>Automated Quality Control System for Precise Hole Detection and Measurement in Automotive Packaging</strong>
-                    <div><em>YOLOX, Open-CV</em>
+          <div class="col-lg-12">
+            <!-- Project Accordion -->
+            <div class="accordion" id="projectsAccordion">
+              
+              <!-- Project 1: Quality Control -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    <div class="w-100">
+                      <strong class="d-block">Automated Quality Control System for Precise Hole Detection and Measurement in Automotive Packaging</strong>
+                      <small class="text-muted"><em>YOLOX, Open-CV</em></small>
                     </div>
-                     <div class="btn-links">
-                      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html">Description</a>
-                      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code</a>
-                    <br />
-
-                    <strong>Automated Tool Inspection: Ensuring Accuracy in Industrial Manufacturing</strong>
-                    <div><em>YOLOX, Custom CNN</em>
+                  </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="row mb-3">
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/img/hol2.jpg" alt="Quality Control System" class="img-fluid rounded shadow-sm">
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/img/hol.jpg" alt="Hole Detection" class="img-fluid rounded shadow-sm">
+                      </div>
                     </div>
-                     <div class="btn-links">
-                      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html">Description</a>
-                      <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mahedishato/Automated-Tool-Inspection-Ensuring-Accuracy-in-Industrial-Manufacturing" target="_blank">Code</a>
-                    <br />
-
-                    <strong> Cold Email Generator Using LLama3.1 GENAI</strong>
-                    <div><em>GENAI, DL</em>
+                    <p align="justify">This project was designed for a Japanese automotive parts manufacturer to ensure high standards of quality and accuracy in their packaging. The goal was to automate the process of detecting and measuring specific holes on packaging boxes to verify if they adhere to strict dimensional requirements.</p>
+                    <p align="justify">The system employs advanced computer vision algorithms to analyze each box cover. It begins by detecting the precise location of each hole, even under variations in lighting or surface texture. Once a hole is identified, the algorithm calculates its diameter and other spatial coordinates, as well as its distance to defined reference points.</p>
+                    <p align="justify">By automating this quality control step, the system reduces the need for labor-intensive manual inspections, speeds up production, and enhances accuracy. This level of automation is particularly valuable for the automotive industry, where precision is critical.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm disabled" href=""><i class="bi bi-code-slash"></i> Code (Private)</a>
                     </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mahedishato/cold-email-generator-GANAI" target="_blank">Code</a>
-                    </div>
-                    <br />
-
-                    <strong>Automated Passport Number Tracking Using Image Verification & Identification</strong>
-                    <div><em>DL, VGGFace, MTCNN</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code</a>
-                    </div>
-                    <br />
-          
-                    <strong>Enhancing Image Generation with Deep Convolutional GANs</strong>
-                    <div><em>DCGAN, Generative AI</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html#DCGAN">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code</a>
-                    </div>
-                    <br /> 
-                    
-                    <strong>Abstract Text Summarization using Large Language Model (LLM)</strong>
-                    <div><em>Google Pegasus, LLM</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html#ATS">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Live</a>
-                    </div>
-                    <br />  
-
-                    <strong>Aspect-Based Evaluation of Bengali User Feedback on E-commerce Platforms</strong>
-                    <div><em>Llama3, Phi3, BERT</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html#ABE">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Live</a>
-                    </div>
-                    <br />  
-
-                    <strong>Forecasting Retail Store Revenue</strong>
-                    <div><em>SARIMA, LSTM, RF, EDA</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html#FRSR">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mahedishato/customer_churn_advance_analysis" target="_blank">Code</a>
-                    </div>
-                    <br />  
-                   
-                    <strong>Disabled People Sign Detection</strong>
-                    <div><em>CNN, Medical Imaging</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html#BTC">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mahedishato/Disabled-People-Sign-Detection_YOLO" target="_blank">Code</a>
-                    </div>
-                    <br />  
-                    
-                    <strong>Explainable AI(XAI): Visualizing Model Predictions with SHAP and LIME</strong>
-                    <div><em>XAI, SHAP, LIME</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="projects.html#XAI">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mahedishato/Explainable-AI" target="_blank">Code</a>
-                    </div>
-                    <br />  
-
-                    <strong>Waiting Time Predictions with MLflow</strong>
-                    <div><em>MLflow</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="" target="_blank">Code</a>
-                    </div>
-                    <br />  
-
-                    <strong>Name Entity Recognition with LLM</strong>
-                    <div><em>MISTRAL, BERT, FLAN T5</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mahedishato/Named-entity-recognition_different_pretrain_model" target="_blank">Code</a>
-                    </div>
-                    <br />    
-
-                    <strong>Image Captioning for Different situation</strong>
-                    <div><em>Multimodal, CNN,RNN</em>
-                    </div>
-                    <div class="btn-links">
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="#" target="_blank">Description</a>
-                    <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/mahedishato/image-captioning_multimodal" target="_blank">Code</a>
-                    </div>
-                    <br />  
-                   
-    
+                  </div>
+                </div>
               </div>
+
+              <!-- Project 2: Tool Inspection -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    <div class="w-100">
+                      <strong class="d-block">Automated Tool Inspection: Ensuring Accuracy in Industrial Manufacturing</strong>
+                      <small class="text-muted"><em>YOLOX, Custom CNN</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="mb-3">
+                      <img src="assets/img/tools.jpg" alt="Tool Inspection" class="img-fluid rounded shadow-sm">
+                    </div>
+                    <p align="justify">This project addresses a critical challenge in industrial tool manufacturing: ensuring every tool is present and accounted for in production boxes. Using advanced image processing and a custom-trained CNN model, the software accurately detects avariety of tools, including screwdrivers, hammers, and other specialized equipment.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm" href="https://github.com/mahedishato/Automated-Tool-Inspection-Ensuring-Accuracy-in-Industrial-Manufacturing" target="_blank"><i class="bi bi-github"></i> View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 3: Cold Email Generator -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    <div class="w-100">
+                      <strong class="d-block">Cold Email Generator UsingLLama3.1 GENAI</strong>
+                      <small class="text-muted"><em>GENAI, DL</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <p align="justify">This project leverages the power of LLama3.1 to automate the creation of personalized cold emails. The system analyzes job postings and company information to generate contextually relevant and engaging email content.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm" href="https://github.com/mahedishato/cold-email-generator-GANAI" target="_blank"><i class="bi bi-github"></i> View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 4: Passport Tracking -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                    <div class="w-100">
+                      <strong class="d-block">Automated Passport Number Tracking Using Image Verification & Identification</strong>
+                      <small class="text-muted"><em>DL, VGGFace, MTCNN</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <p align="justify">This system combines facial recognition and OCR technologies to automate passport number tracking and verification using VGGFace for face recognition and MTCNN for face detection.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm disabled" href=""><i class="bi bi-code-slash"></i> Code (Private)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 5: DCGAN -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading5">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                    <div class="w-100">
+                      <strong class="d-block">Enhancing Image Generation with Deep Convolutional GANs</strong>
+                      <small class="text-muted"><em>DCGAN, Generative AI</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="mb-3">
+                      <img src="assets/project_images/DCGAN.gif" alt="DCGAN" class="img-fluid rounded shadow-sm" style="max-width: 500px;">
+                    </div>
+                    <p align="justify">Developed and implemented a Deep Convolutional Generative Adversarial Network (DCGAN) using TensorFlow and Keras to generate synthetic images based on the MNIST dataset, demonstrating image quality improvement over training epochs.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm disabled" href=""><i class="bi bi-code-slash"></i> Code (Private)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 6: Text Summarization -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading6">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                    <div class="w-100">
+                      <strong class="d-block">Abstract Text Summarization using Large Language Model (LLM)</strong>
+                      <small class="text-muted"><em>Google Pegasus, LLM</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="row mb-3">
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/project_images/text2textsum.png" alt="Text Summarization" class="img-fluid rounded shadow-sm">
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/project_images/rouge_scores.png" alt="ROUGE Scores" class="img-fluid rounded shadow-sm">
+                      </div>
+                    </div>
+                    <p align="justify">Utilizes Pegasus model to automate text summarization. Achieved <b>ROUGE-1 at 0.613, ROUGE-2 at 0.373, ROUGE-L at 0.557, and ROUGE-Lsum at 0.556</b>.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm disabled" href=""><i class="bi bi-code-slash"></i> Code (Private)</a>
+                      <a class="btn btn-outline-success btn-sm disabled" href=""><i class="bi bi-play-circle"></i> Live (Coming Soon)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 7: Bengali Feedback -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading7">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                    <div class="w-100">
+                      <strong class="d-block">Aspect-Based Evaluation of Bengali User Feedback on E-commerce Platforms</strong>
+                      <small class="text-muted"><em>Llama3, Phi3, BERT</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="row mb-3">
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/project_images/user_aspect.png" alt="Aspect Analysis" class="img-fluid rounded shadow-sm">
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/project_images/user_aspect_Huggingface.png" alt="Huggingface Model" class="img-fluid rounded shadow-sm">
+                      </div>
+                    </div>
+                    <p align="justify">BERT-based model for multi-label classification of user feedback. Achieved <b>F1-scores of 0.84 (micro), 0.81 (macro), and 0.83 (weighted) across 415 samples</b>.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm disabled" href=""><i class="bi bi-code-slash"></i> Code (Private)</a>
+                      <a class="btn btn-outline-success btn-sm disabled" href=""><i class="bi bi-play-circle"></i> Live (Coming Soon)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 8: Revenue Forecasting -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading8">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                    <div class="w-100">
+                      <strong class="d-block">Forecasting Retail Store Revenue</strong>
+                      <small class="text-muted"><em>SARIMA, LSTM, RF, EDA</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="row mb-3">
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/project_images/timeseries.png" alt="Time Series" class="img-fluid rounded shadow-sm">
+                      </div>
+                      <div class="col-md-6 mb-3">
+                        <img src="assets/project_images/futureforcasting.png" alt="Forecasting" class="img-fluid rounded shadow-sm">
+                      </div>
+                    </div>
+                    <p align="justify">Revenue forecasting using SARIMA and LSTM models. <b>SARIMA RMSE: 529.56, LSTM RMSE: 323.89</b>.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm" href="https://github.com/mahedishato/customer_churn_advance_analysis" target="_blank"><i class="bi bi-github"></i> View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 9: Sign Detection -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading9">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                    <div class="w-100">
+                      <strong class="d-block">Disabled People Sign Detection</strong>
+                      <small class="text-muted"><em>CNN, Medical Imaging</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="mb-3">
+                      <img src="assets/project_images/BRAIN_TUMOUR.png" alt="Detection System" class="img-fluid rounded shadow-sm" style="max-width: 500px;">
+                    </div>
+                    <p align="justify">CNN-based system for detecting and classifying signs related to accessibility and disability services.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm" href="https://github.com/mahedishato/Disabled-People-Sign-Detection_YOLO" target="_blank"><i class="bi bi-github"></i> View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 10: Explainable AI -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading10">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                    <div class="w-100">
+                      <strong class="d-block">Explainable AI: Visualizing Model Predictions with SHAP and LIME</strong>
+                      <small class="text-muted"><em>XAI, SHAP, LIME</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <div class="mb-3">
+                      <img src="assets/project_images/XAI.jpg" alt="Explainable AI" class="img-fluid rounded shadow-sm" style="max-width: 500px;">
+                    </div>
+                    <p align="justify">Utilizes SHAP and LIME to visualize and interpret model predictions across tabular, text, and image data, building trust in machine learning models.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm" href="https://github.com/mahedishato/Explainable-AI" target="_blank"><i class="bi bi-github"></i> View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 11: MLflow -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading11">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                    <div class="w-100">
+                      <strong class="d-block">Waiting Time Predictions with MLflow</strong>
+                      <small class="text-muted"><em>MLflow</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <p align="justify">MLflow implementation for tracking and managing machine learning experiments focused on predicting waiting times in service operations.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm disabled" href=""><i class="bi bi-code-slash"></i> Code (Private)</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 12: NER -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading12">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                    <div class="w-100">
+                      <strong class="d-block">Name Entity Recognition with LLM</strong>
+                      <small class="text-muted"><em>MISTRAL, BERT, FLAN T5</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <p align="justify">Explores Named Entity Recognition using state-of-the-art language models including MISTRAL, BERT, and FLAN T5, comparing performance across different pre-trained models.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm" href="https://github.com/mahedishato/Named-entity-recognition_different_pretrain_model" target="_blank"><i class="bi bi-github"></i> View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 13: Image Captioning -->
+              <div class="accordion-item mb-3 border rounded">
+                <h2 class="accordion-header" id="heading13">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse13" aria-expanded="false" aria-controls="collapse13">
+                    <div class="w-100">
+                      <strong class="d-block">Image Captioning for Different Situations</strong>
+                      <small class="text-muted"><em>Multimodal, CNN, RNN</em></small>
+                    </div>
+                  </button>
+                </h2>
+                <div id="collapse13" class="accordion-collapse collapse" aria-labelledby="heading13" data-bs-parent="#projectsAccordion">
+                  <div class="accordion-body">
+                    <p align="justify">Multimodal project combining CNN and RNN architectures to automatically generate descriptive captions for images across various scenarios.</p>
+                    <div class="mt-3">
+                      <a class="btn btn-outline-primary btn-sm" href="https://github.com/mahedishato/image-captioning_multimodal" target="_blank"><i class="bi bi-github"></i> View Code</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
-
         </div>
 
       </div>

@@ -318,3 +318,106 @@
     height: 300px;
   }
 }
+
+/* ======= Projects Accordion Styles ======= */
+#projectsAccordion .accordion-item {
+  border: 1px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+#projectsAccordion .accordion-item:hover {
+  border-color: #149ddd !important;
+  box-shadow: 0 4px 12px rgba(20, 157, 221, 0.15);
+}
+
+#projectsAccordion .accordion-button {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-size: 1rem;
+  padding: 1.25rem 1.5rem;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#projectsAccordion .accordion-button:not(.collapsed) {
+  background-color: #149ddd;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+#projectsAccordion .accordion-button:not(.collapsed) .text-muted {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+#projectsAccordion .accordion-button:focus {
+  box-shadow: none;
+  border: none;
+}
+
+#projectsAccordion .accordion-button::after {
+  background-size: 1.25rem;
+  transition: transform 0.3s ease;
+}
+
+#projectsAccordion .accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg);
+  filter: brightness(0) invert(1);
+}
+
+#projectsAccordion .accordion-body {
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-top: 2px solid #e9ecef;
+}
+
+#projectsAccordion .accordion-body img {
+  transition: transform 0.3s ease;
+}
+
+#projectsAccordion .accordion-body img:hover {
+  transform: scale(1.02);
+}
+
+#projectsAccordion strong {
+  font-weight: 600;
+}
+
+#projectsAccordion .text-muted {
+  font-size: 0.9rem;
+}
+
+/* Smooth scrolling for accordion */
+.accordion-collapse {
+  transition: height 0.35s ease;
+}
+
+/* Button styling within accordion */
+#projectsAccordion .btn-outline-primary {
+  border-color: #149ddd;
+  color: #149ddd;
+}
+
+#projectsAccordion .btn-outline-primary:hover:not(.disabled) {
+  background-color: #149ddd;
+  border-color: #149ddd;
+  color: #ffffff;
+}
+
+#projectsAccordion .btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #projectsAccordion .accordion-button {
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+  
+  #projectsAccordion strong {
+    font-size: 0.95rem;
+  }
+}
